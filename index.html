@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slideshow Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <div class="slides">
+        <img src="img/nature.png" alt="Nature" />
+      </div>
+      <div class="slides">
+        <img src="img/mountains.png" alt="Mountains" />
+      </div>
+      <div class="slides">
+        <img src="img/forest.png" alt="Forest" />
+      </div>
+      <div class="slides">
+        <img src="img/beach.png" alt="Beach" />
+      </div>
+
+      <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+      <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
